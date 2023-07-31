@@ -1,5 +1,11 @@
 import './globals.css';
 
+// This is how you add meta data
+export const metadata = {
+  title: 'Home',
+  description: 'Created by Nemo',
+};
+
 export default function RootLayout({
   children,
 }: {

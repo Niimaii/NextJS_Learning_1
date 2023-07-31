@@ -1,3 +1,10 @@
+import styles from './styles.module.css';
+
+export const metadata = {
+  title: 'About Page',
+  description: 'Created by Nemo',
+};
+
 export default function AboutLayout({
   children,
 }: {
@@ -6,7 +13,7 @@ export default function AboutLayout({
   return (
     <>
       <nav>About Navbar</nav>
-      <main>{children}</main>
+      <main className={styles.main}>{children}</main>
     </>
   );
 }
